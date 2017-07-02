@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp"
+    tools:context="com.rgsystems.loantable.AmortizeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/txt_montoPrestamo"
+            android:text="@string/lbl_monto_prestamo" />
+
+        <EditText
+            android:id="@+id/txt_amName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbl_name"
+            android:cursorVisible="false"
+            android:enabled="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/txt_pagoMensual"
+            android:text="@string/lbl_pago_mensual" />
+
+        <EditText
+            android:id="@+id/txt_pagoMensual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbl_pago_mensual"
+            android:cursorVisible="false"
+            android:enabled="false" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewComponent"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

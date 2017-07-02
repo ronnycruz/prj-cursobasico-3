@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Prestamos</string>
+
+    <string name="lbl_name">Nombre</string>
+    <string name="lbl_last_name">Apellido</string>
+    <string name="btn_accept">Aceptar</string>
+
+    <string name="lbl_monto_prestamo">Monto Préstamo:</string>
+    <string name="lbl_cantidad_cuotas">Cantidad de Cuotas:</string>
+    <string name="lbl_interes_restamo">Interes Préstamo:</string>
+
+    <string name="lbl_pago_mensual">Pago Mensual:</string>
+</resources>
